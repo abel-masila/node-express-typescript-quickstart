@@ -1,0 +1,10 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "author": "Abel Masila",
+  "license": "MIT",
+  "repository": {
+    "url": "git remote add origin git@github.com:abel-masila/node-express-typescript-quickstart.git"
+  }
+}
