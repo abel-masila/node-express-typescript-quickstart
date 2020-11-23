@@ -33,3 +33,10 @@ const debug = (namespace: string, message: string, object?: any) => {
         console.debug(`[${getTimeStamp()}] [DEBUG] [${namespace}] ${message}`);
     }
 };
+
+export default {
+    info,
+    warn,
+    error,
+    debug
+};
