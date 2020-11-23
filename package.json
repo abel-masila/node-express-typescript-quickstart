@@ -6,5 +6,18 @@
   "license": "MIT",
   "repository": {
     "url": "https://github.com/abel-masila/node-express-typescript-quickstart"
+  },
+  "scripts": {
+    "build": "rm -rf build/ && prettier --write src/ && tsc"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.9"
   }
 }
